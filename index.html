@@ -7,6 +7,7 @@
     <title>MENU BTALCB</title>
 </head>
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
     body {
         margin: 0;
         padding: 0;
@@ -14,17 +15,46 @@
 
     img {
         width: 99vw;
-        margin: 0;
+        margin: -2px;
         padding: 0;
+    }
+    #vegg{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    #vegg a{
+        height: 60px;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        padding-top: 15%;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+    #green{
+        background-color: #008405;
+        color: white;
+    }
+    #yellow{
+        background-color: #fcc122;
+        color: black;
     }
 </style>
 
 <body>
+    <div id='vegg'>
+        <a id='green' href="#veggie">Menu Vegetariano</a>
+        <a id="yellow" href="#pack">Paquetes</a>
+    </div>
+    
+    
     <img src="./images/0.png" alt="">
     <img src="./images/1.png" alt="">
     <img src="./images/2.png" alt="">
-    <img src="./images/6.png" alt="">
-    <img src="./images/4.png" alt="">
+    <img src="./images/3.png" alt="">
+    <img id="veggie" src="./images/4.png" alt="">
+    <img src="./images/5.png" alt="">
+    <img id="pack" src="./images/6.png" alt="">
 </body>
 
 </html>
